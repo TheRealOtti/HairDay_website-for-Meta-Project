@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--open graphic protocol-->
+    <!--setting up a social media card to be linked from the webpage-->
+    <meta property="og: title" content="Our Services">
+    <meta property="og: type" content="Website">
+    <meta property="og: image" content="Artboard 1.png">
+    <meta property="og: url" content="www.goodFood.com">
+    <meta property="og: description" content="Hot is the new Cool ">
+    <meta property="og: locale" content="en_us">
+    <meta property="og: site_us" content="Hair Day">
+
+    <link rel="stylesheet" href="hairday.css">
+    <link rel="stylesheet"  href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <title>Hair Day | Home</title>
+
+    
+</head>
+
+<body>
+
+<header> <img src="Artboard 23.png"></header><br>
+
+<nav>
+    <ul class="navContainer">
+        <li> <a href="Home.html">Home</a></li>
+        <li> <a href="Services.html">Services</a></li>
+        <li> <a href="Book Now.html">Bookings</a></li>
+        <li> <a href="Blog.html">Blog</a></li>
+        
+       
+    </ul>
+</nav><br>
+
+<main class="cataContainer">
+    <section>
+        <article>
+            <h1> Hair Catalogue</h1>
+           
+                 <img class="mySlides" src="89.jpg" style="width:100%">
+                 <img class="mySlides" src="98.jpg" style="width:100%">
+                 <img class="mySlides" src="34.jpg" style="width:100%">
+                 <img class="mySlides" src="44.jpg" style="width:100%">
+                 <img class="mySlides" src="15.jpg" style="width:100%">
+                 <img class="mySlides" src="678.jpg" style="width:100%">
+                 <img class="mySlides" src="3546.jpg" style="width:100%">
+                 <img class="mySlides" src="67.jpg" style="width:100%">
+                 <img class="mySlides" src="16.jpg" style="width:100%">
+                 <img class="mySlides" src="1.jpg" style="width:100%">
+                 <img class="mySlides" src="87.jpg" style="width:100%">    
+        </article>
+    
+    </section><br>
+    <section>
+        <article>
+            <h2> Blog </h2><br>
+            <img src="blog2.jpg" width="100%"><br>
+            <p> Everybody wants hair that’s strong, shiny, and easy to manage. But it can be challenging to get to that place. Most of us have to deal with some sort of hair issue that stands in the way of a healthy head of locks.
+
+                Genes do play a role when it comes to your hair type, strength, and volume. But that doesn’t mean you have no control over your hair.
+                
+                In this article, we’ll look at 10 steps you can take to help strengthen your strands, boost hair growth, and enhance the look, feel, and health of your hair. </p>
+        </article>
+     
+            <article>
+                <h2> Tutorial DIY </h2><br>
+                <img src="diy.jpg" width="100%"><br>
+                <p>To condition or not to condition, to oil or not to oil - when it comes to your hair you'll find all kinds of advice. Mothers' will tell you to "oil your hair" while your hair dresser will recommend the new IT thing "hair spa, Moroccan oil, strengthening not rebonding and all." Before you pick your choice of treatment, here are a few things you must know. </p>
+            </article>
+       
+       
+            <article>
+                <h2>What we do</h2><br>
+                <img src="nails.jpg" width="100%"><br>
+                <ul>
+                    <li>Haircuts and trims.</li>
+                    <li>Single-process color.</li>
+                    <li>Highlights (cap or foil)</li>
+                    <li>Double-process color.</li>
+                    <li>Straightening treatments Perms.</li>
+                    <li> Relaxers</li>
+                    <li> Colouring</li>
+                </ul>
+            </article>
+    </section><br>
+
+</main>
+
+</body>
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+    
+
+
+<footer> 
+
+    <!--using the div element to split into two colmns and allow for flexbot layout-->
+<div><img src="artboard 19.png" width="100"> </div>
+
+    <div> 
+    <a href="Locations.html">Locations</a> <br>
+    Contact Us :  Madison office - +4401 | Wisconsin office - +5301<br>
+    
+</div>
+
+<div>&copy; Copyright Hair Day 2022</div>
+    
+
+</footer>
+</html>
